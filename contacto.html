@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printmancer - Inicio</title>
+    <!-- Carga de estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <!-- Carga de scripts -->
+    <script src="scripts/script.js"></script>
+    <script src="scripts/headerfooter.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis|Montserrat|Chau+Philomene+One">
+
+</head>
+
+<body>
+    <a id="top"></a>
+    <a href="#top" class="btt">▲</a>
+    <header id="header"></header>
+    <main>
+        <h1>Ponete en contacto con nosotros</h1>
+        <p class="contactoTexto">
+            Si tenes alguna duda, o querés que te presupuestemos algún proyecto tuyo, no dudes en contactarnos.<br>
+            También podés escribirnos para contarnos qué te gustaría que imprimiéramos, o qué te gustaría que ofrezcamos
+            en nuestro catálogo.<br>
+        </p>
+
+        <form action="https://formspree.io/f/xzdydjjn" method="post">
+            <label for="nombre">*Nombre:
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required></label>
+
+            <label for="email">*Email:
+                <input type="email" id="email" name="email" placeholder="Tu email" required></label>
+
+            <label for="archivo">Archivo:
+                <input type="file" id="archivo" name="archivo" multiple></label>
+
+            <label for="mensaje">*Mensaje:
+                <textarea id="mensaje" name="mensaje"
+                    placeholder="Tu mensaje o tus preferencias con respecto a la impresión si buscas un presupuesto."
+                    required"></textarea></label>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer id="footer">
+    </footer>
+</body>
+
+</html>
