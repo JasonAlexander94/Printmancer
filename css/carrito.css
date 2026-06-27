@@ -1,0 +1,27 @@
+aside { margin: 0; padding: 0; }
+
+/* Quitar li style */
+.carrito-item, .producto-item {
+    list-style: none;
+}
+
+/* Carrito */
+.carrito-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+
+
+/* Catalogo */

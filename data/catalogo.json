@@ -1,0 +1,165 @@
+[
+    Catalogo {
+        {
+            "ID": "DB-C01",
+            "Name": "Commander libro",
+            "Description": "",
+            "Price": 8.95,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-C02",
+            "Name": "Esfinge",
+            "Description": "Con espacio para +100 cartas + espacio para guardar cosas",
+            "Price": 12.35,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-C03",
+            "Name": "Cabeza",
+            "Description": "Espacio para +100 cartas, + slot para dados y tokens",
+            "Price": 13.05,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-C04",
+            "Name": "Tronco",
+            "Description": "Para +100 cartas",
+            "Price": 15.75,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-C07",
+            "Name": "Roca dragon",
+            "Description": "",
+            "Price": 21.08,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-C08",
+            "Name": "Mausoleo",
+            "Description": "",
+            "Price": 23.96,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-DIS01",
+            "Name": "Simple Lorcana",
+            "Description": "Con capacidad para 60+ cartas single sleeved",
+            "Price": 4.36,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-DIS02",
+            "Name": "Libro Lorcana",
+            "Description": "Single Sleeve, con Lore counter y counters -1 y -3",
+            "Price": 6.32,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-MTG01",
+            "Name": "Simple MTG",
+            "Description": "Con capacidad para 60+ cartas single sleeved",
+            "Price": 4.36,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-MTG02X100",
+            "Name": "Dual Color 100",
+            "Description": "",
+            "Price": 4.93,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-MTG02X60",
+            "Name": "Dual Color 60",
+            "Description": "",
+            "Price": 3.55,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-MTG03X100",
+            "Name": "Medio 100",
+            "Description": "",
+            "Price": 5.32,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-MTG03X60",
+            "Name": "Medio 60",
+            "Description": "",
+            "Price": 4.49,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-MTG04",
+            "Name": "Commander mix",
+            "Description": "C/ ventana SS + espacio para tokens | Ventana TL",
+            "Price": 9.72,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-MTG05",
+            "Name": "Commander",
+            "Description": "C/ ventana SS + espacio para tokens",
+            "Price": 7.89,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-OP01",
+            "Name": "One Piece",
+            "Description": "Con ventana para Top Loader",
+            "Price": 7.13,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-PKM01",
+            "Name": "Pokeball",
+            "Description": "Para +60 cartas Single Sleeved",
+            "Price": 8.45,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-PKM02",
+            "Name": "Medio 60",
+            "Description": "",
+            "Price": 4.49,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-PMR01",
+            "Name": "Commander simple sleeved",
+            "Description": "Printmancer commander para Single Sleeved",
+            "Price": 4.93,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-PMR02",
+            "Name": "Commander toploader",
+            "Description": "Printmancer commander para Top Loader",
+            "Price": 5.99,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-PMR03",
+            "Name": "Commander SS",
+            "Description": "Commander + comp dados y tokens",
+            "Price": 9.11,
+            "IMG": "a"
+        },
+        {
+            "ID": "DB-TROK01",
+            "Name": "Trok",
+            "Description": "",
+            "Price": 3.69,
+            "IMG": "a"
+        },
+        {
+            "ID": "SB-18CM",
+            "Name": "Storage bin 18cm",
+            "Description": "Storage + holder (Poke/MTG/Store)",
+            "Price": 17.41,
+            "IMG": "a"
+        }
+    }
+]
