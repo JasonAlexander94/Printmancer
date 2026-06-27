@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Printmancer - Inicio</title>
     <!-- Carga de estilos -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/headerfooter.css">
+    <link rel="stylesheet" href="/css/carrito.css">
     <!-- Carga de scripts -->
-    <script src="scripts/script.js"></script>
-    <script src="scripts/headerfooter.js"></script>
+    <script src="/scripts/calculadora.js"></script>
+    <script src="/scripts/carrito.js"></script>
+    <script src="/scripts/headerfooter.js"></script>
+    <!-- FONTS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis|Montserrat|Chau+Philomene+One">
-
 </head>
 
 <body>
@@ -21,64 +23,31 @@
     <header id="header"></header>
     <main>
         <h1>Nuestro catálogo</h1>
-        <div class="catalogoContainer">
-            <div class="catalogoItem">
-                <img src="https://placehold.co/250x250/ccc/31343C" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae obcaecati nobis
-                    praesentium quas commodi ad. Minus nobis enim distinctio facilis, sed eum sit repellat, officiis
-                    exercitationem dignissimos placeat. Vel!</p>
-            </div>
-            <div class="catalogoItem">
-                <img src="https://placehold.co/250x250/ccc/31343C" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae obcaecati nobis
-                    praesentium quas commodi ad. Minus nobis enim distinctio facilis, sed eum sit repellat, officiis
-                    exercitationem dignissimos placeat. Vel!</p>
-            </div>
-            <div class="catalogoItem">
-                <img src="https://placehold.co/250x250/ccc/31343C" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae obcaecati nobis
-                    praesentium quas commodi ad. Minus nobis enim distinctio facilis, sed eum sit repellat, officiis
-                    exercitationem dignissimos placeat. Vel!</p>
-            </div>
-            <div class="catalogoItem">
-                <img src="https://placehold.co/250x250/ccc/31343C" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae obcaecati nobis
-                    praesentium quas commodi ad. Minus nobis enim distinctio facilis, sed eum sit repellat, officiis
-                    exercitationem dignissimos placeat. Vel!</p>
-            </div>
-            <div class="catalogoItem">
-                <img src="https://placehold.co/250x250/ccc/31343C" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae obcaecati nobis
-                    praesentium quas commodi ad. Minus nobis enim distinctio facilis, sed eum sit repellat, officiis
-                    exercitationem dignissimos placeat. Vel!</p>
-            </div>
-            <div class="catalogoItem">
-                <img src="https://placehold.co/250x250/ccc/31343C" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae obcaecati nobis
-                    praesentium quas commodi ad. Minus nobis enim distinctio facilis, sed eum sit repellat, officiis
-                    exercitationem dignissimos placeat. Vel!</p>
-            </div>
-            <div class="catalogoItem">
-                <img src="https://placehold.co/250x250/ccc/31343C" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae obcaecati nobis
-                    praesentium quas commodi ad. Minus nobis enim distinctio facilis, sed eum sit repellat, officiis
-                    exercitationem dignissimos placeat. Vel!</p>
-            </div>
-            <div class="catalogoItem">
-                <img src="https://placehold.co/250x250/ccc/31343C" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae obcaecati nobis
-                    praesentium quas commodi ad. Minus nobis enim distinctio facilis, sed eum sit repellat, officiis
-                    exercitationem dignissimos placeat. Vel!</p>
-            </div>
+        <div class="catalogoContainer" id="lista-productos">
+            
         </div>
+
+        <!-- Carrito -->
+        <aside class="carrito-box">
+            <h3>🛒 Tu carrito (<span id="cantidad-carrito">0</span>)</h3>
+
+            <ul id="items-carrito">
+                <!-- Los items del carrito se cargan desde JavaScript -->
+            </ul>
+
+            <div class="carrito-total">
+                <span>Total:</span>
+                <strong id="total-carrito">$0</strong>
+            </div>
+
+            <div class="carrito-acciones">
+                <button id="btn-vaciar" class="btn-secundario">Vaciar</button>
+                <button id="btn-pagar" class="btn">Pagar</button>
+            </div>
+
+            <p class="carrito-nota">* El pago es una demostración, no se procesa ningún cobro real.</p>
+        </aside>
+        
     </main>
 
     <footer id="footer"></footer>
