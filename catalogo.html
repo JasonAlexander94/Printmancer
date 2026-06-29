@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Printmancer - Inicio</title>
     <!-- Carga de estilos -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/headerfooter.css">
-    <link rel="stylesheet" href="/css/carrito.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/headerfooter.css">
+    <link rel="stylesheet" href="./css/carrito.css">
     <!-- Carga de scripts -->
-    <script src="/scripts/calculadora.js"></script>
-    <script src="/scripts/carrito.js"></script>
-    <script src="/scripts/headerfooter.js"></script>
+    <script src="./scripts/calculadora.js"></script>
+    <script src="./scripts/carrito.js"></script>
+    <script src="./scripts/headerfooter.js"></script>
     <!-- FONTS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis|Montserrat|Chau+Philomene+One">
 </head>
@@ -22,14 +22,20 @@
     <a href="#top" class="btt">▲</a>
     <header id="header"></header>
     <main>
-        <h1>Nuestro catálogo</h1>
+        <h1>Nuestras deck box disponibles</h1>
         <div class="catalogoContainer" id="lista-productos">
-            
+
+        </div>
+
+        <h1>Accesorios y demás</h1>
+        <div class="catalogoContainer" id="lista-extras">
+
         </div>
 
         <!-- Carrito -->
-        <aside class="carrito-box">
-            <h3>🛒 Tu carrito (<span id="cantidad-carrito">0</span>)</h3>
+        <button id="btn-carrito" class="btn-carrito-open">🛒 Carrito (<span id="cantidad-carrito">0</span>)</button>
+        <aside class="carrito-close carrito-open" id="cart">
+            <h3>🛒 Tu carrito (<span id="cantidad-carrito2">0</span>)</h3>
 
             <ul id="items-carrito">
                 <!-- Los items del carrito se cargan desde JavaScript -->
@@ -40,14 +46,13 @@
                 <strong id="total-carrito">$0</strong>
             </div>
 
+            <p class="carrito-nota">* El pago es una demostración, no se procesa ningún cobro real.</p>
             <div class="carrito-acciones">
                 <button id="btn-vaciar" class="btn-secundario">Vaciar</button>
                 <button id="btn-pagar" class="btn">Pagar</button>
             </div>
-
-            <p class="carrito-nota">* El pago es una demostración, no se procesa ningún cobro real.</p>
         </aside>
-        
+
     </main>
 
     <footer id="footer"></footer>
