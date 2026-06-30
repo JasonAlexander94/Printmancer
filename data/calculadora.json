@@ -1,0 +1,13 @@
+{
+    "Datos": [
+        {
+            "dolar": 1450,
+            "valorImpresora": 1250,
+            "valorPLA": 22500,
+            "margenError": 0.30,
+            "margenGanancia": 1.3,
+            "consumoElec": 57,
+            "kWh": 107
+        }
+    ]
+}

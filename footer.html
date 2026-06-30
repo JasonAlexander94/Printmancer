@@ -1,28 +1,50 @@
-<center>
-    <div class="footer-container">
+<div class="footer-container">
 
-        <div class="footer-col">
-            <h4>Sobre nosotros</h4>
-            <p>"You wish, <b>we create."</b></p>
-            <li><a href="acerca.html">Acerca de nosotros</a></li>
+    <div class="footer-col">
+        <h4>¿Ya tenes un archivo para imprimir? ¡Te lo cotizamos en el momento!</h4>
+        <p>
+            Si tenés un archivo listo para imprimir, pero te falta la impresora, no te preocupes.<br>
+            Con el siguiente formulario te cotizamos lo que necesitas.
+        </p>
 
-        </div>
-        <div class="footer-col">
-            <h4>Enlaces importantes</h4>
-            <ul>
-                <li><img src="img/iconCatalogue.png" alt="Catálogo"> <a href="catalogo.html">Catálogo</a></li>
-                <li><img src="img/iconInstagram.png" alt="Instagram"> <a href="https://www.instagram.com/printmancer3d/" target="_blank">Instagram</a></li>
-                <li><img src="img/iconShopping.png" alt="Tienda Virtual"> <a href="https://printmancer3d.mitiendanube.com/" target="_blank">Tienda Virtual</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h4>Contacto</h4>
-            <p><img src="img/iconMail.png" alt="Email"> printmancer3d@gmail.com</p>
-            <p><img src="img/iconTelephone.png" alt="Telephone"> +54 11-xxxx-xxxx | Lu a Vi 9 a 20 | Sa 9 a 17</p>
-        </div>
+        <label>Horas:</label>
+        <input type="number" name="horas" id="horas" max="9999" min="0" value="0">
+
+        <label>Minutos:</label>
+        <input type="number" name="minutos" id="minutos" max="59" min="0" value="0">
+
+        <label>Gramos:</label>
+        <input type="number" name="gramos" id="gramos" max="9999" min="1" value="0">
+
+        <label>Cantidad:</label>
+        <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad de unidades a imprimir" max="9999"
+            min="1" value="1">
+
+        <button onclick="calcular()" id="jason1">Calcular</button>
+
     </div>
 
-    <div class="footer-bottom">
-        <p>&copy; Printmancer 3D | Todos los derechos reservados</p>
+    <div class="footer-col">
+        <h4>Sobre nosotros</h4>
+        <p>"You wish, <b>we create."</b></p>
+        <li><a href="/Printmancer/acerca.html">Acerca de nosotros</a></li>
+
+        <h4>Enlaces importantes</h4>
+        <ul>
+            <li><img src="/Printmancer/img/iconCatalogue.png" alt="Catálogo"> <a href="/Printmancer/catalogo.html">Catálogo</a></li>
+            <li><img src="/Printmancer/img/iconInstagram.png" alt="Instagram"> <a href="https://www.instagram.com/printmancer3d/"
+                    target="_blank">Instagram</a></li>
+            <li><img src="/Printmancer/img/iconShopping.png" alt="Tienda Virtual"> <a href="https://printmancer3d.mitiendanube.com/"
+                    target="_blank">Tienda Virtual</a></li>
+        </ul>
+
+        <h4>Contacto</h4>
+        <p><img src="/Printmancer/img/iconMail.png" alt="Email"> printmancer3d@gmail.com</p>
+        <p><a href="https://wa.me/54911xxxxxxxx?text=Hola%2C%20quiero%20cotizar%20un%20pedido" target="_blank"><img
+                    src="/Printmancer/img/iconTelephone.png" alt="Telephone"> +54 11-xxxx-xxxx</a> | Lu a Vi 9 a 20 | Sa 9 a 17</p>
     </div>
-</center>
+</div>
+
+<div class="footer-bottom">
+    <p>&copy; Printmancer 3D | Todos los derechos reservados</p>
+</div>
