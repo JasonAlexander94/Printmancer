@@ -5,176 +5,168 @@
             "Name": "Commander libro",
             "Description": "",
             "Price":  13300,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Commander+libro",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-C01.jpg",
+            "Stock": 2
         },
         {
             "ID": "DB-C02",
             "Name": "Esfinge",
             "Description": "Con espacio para +100 cartas + espacio para guardar cosas",
             "Price":  18300,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Esfinge",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-C02.jpg",
+            "Stock": 3
         },
         {
             "ID": "DB-C03",
             "Name": "Cabeza",
             "Description": "Espacio para +100 cartas, + slot para dados y tokens",
             "Price":  19300,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Cabeza",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-C03.jpg",
+            "Stock": 3
         },
         {
             "ID": "DB-C04",
             "Name": "Tronco",
             "Description": "Para +100 cartas",
             "Price":  23300,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Tronco",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-C04.jpg",
+            "Stock": 5
         },
         {
             "ID": "DB-C07",
             "Name": "Roca dragon",
             "Description": "",
             "Price":  31100,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Roca+dragon",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-C07.jpg",
+            "Stock": 2
         },
         {
             "ID": "DB-C08",
             "Name": "Mausoleo",
             "Description": "",
             "Price":  35400,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Mausoleo",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-C08.jpg",
+            "Stock": 3
         },
         {
             "ID": "DB-DIS01",
             "Name": "Simple Lorcana",
             "Description": "Con capacidad para 60+ cartas single sleeved",
             "Price":    6500,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Simple+Lorcana",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-DIS01.jpg",
+            "Stock": 10
         },
         {
             "ID": "DB-DIS02",
             "Name": "Libro Lorcana",
             "Description": "Single Sleeve, con Lore counter y counters -1 y -3",
             "Price":   9400,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Libro+Lorcana",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-DIS02.jpg",
+            "Stock": 4
         },
         {
             "ID": "DB-MTG01",
             "Name": "Simple MTG",
             "Description": "Con capacidad para 60+ cartas single sleeved",
             "Price":   6500,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Simple+MTG",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-MTG01.jpg",
+            "Stock": 10
         },
         {
             "ID": "DB-MTG02X100",
             "Name": "Dual Color 100",
             "Description": "",
             "Price":   7300,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Dual+Color+100",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-MTG02X100.jpg",
+            "Stock": 5
         },
         {
             "ID": "DB-MTG02X60",
             "Name": "Dual Color 60",
             "Description": "",
             "Price":  5300,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Dual+Color+60",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-MTG02X60.jpg",
+            "Stock": 6
         },
         {
             "ID": "DB-MTG03X100",
             "Name": "Medio 100",
             "Description": "",
             "Price":  7900,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Medio+100",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-MTG03X100.jpg",
+            "Stock": 5
         },
         {
             "ID": "DB-MTG03X60",
             "Name": "Medio 60",
             "Description": "",
             "Price":  6700,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Medio+60",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-MTG03X60.jpg",
+            "Stock": 6
         },
         {
             "ID": "DB-MTG04",
             "Name": "Commander mix",
             "Description": "C/ ventana SS + espacio para tokens | Ventana TL",
             "Price":  14400,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Commander+mix",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-MTG04.jpg",
+            "Stock": 6
         },
         {
             "ID": "DB-MTG05",
             "Name": "Commander",
             "Description": "C/ ventana SS + espacio para tokens",
             "Price":  11700,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Commander",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-MTG05.jpg",
+            "Stock": 6
         },
         {
             "ID": "DB-OP01",
             "Name": "One Piece",
             "Description": "Con ventana para Top Loader",
             "Price":  10600,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=One+Piece",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-OP01.jpg",
+            "Stock": 5
         },
         {
             "ID": "DB-PKM01",
             "Name": "Pokeball",
             "Description": "Para +60 cartas Single Sleeved",
             "Price":  12500,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Pokeball",
-            "Cantidad": 0
-        },
-        {
-            "ID": "DB-PKM02",
-            "Name": "Medio 60",
-            "Description": "",
-            "Price":  6700,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Medio+60",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-PKM01.jpg",
+            "Stock": 10
         },
         {
             "ID": "DB-PMR01",
             "Name": "Commander simple sleeved",
             "Description": "Printmancer commander para Single Sleeved",
             "Price":  7300,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Commander+simple+sleeved",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-PMR01.jpg",
+            "Stock": 7
         },
         {
             "ID": "DB-PMR02",
             "Name": "Commander toploader",
             "Description": "Printmancer commander para Top Loader",
             "Price":  8900,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Commander+toploader",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-PMR02.jpg",
+            "Stock": 7
         },
         {
             "ID": "DB-PMR03",
             "Name": "Commander SS",
             "Description": "Commander + comp dados y tokens",
             "Price":  13500,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Commander+SS",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-PMR03.jpg",
+            "Stock": 7
         },
         {
             "ID": "DB-TROK01",
             "Name": "Trok",
             "Description": "",
             "Price":  5500,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Trok",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/DB-TROK01.jpg",
+            "Stock": 4
         }
     ],
     "Extras": [
@@ -183,8 +175,8 @@
             "Name": "Storage bin 18cm",
             "Description": "Storage + holder (Poke/MTG/Store)",
             "Price": 25300,
-            "IMG": "https://placehold.co/250x250/ccc/31343C?text=Storage+bin+18cm",
-            "Cantidad": 0
+            "IMG": "/Printmancer/img/catalogo/SB-18CM.jpg",
+            "Stock": 3
         }
     ]
 }

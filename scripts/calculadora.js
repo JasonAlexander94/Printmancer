@@ -1,6 +1,5 @@
 // Declarar variables globales
 
-
 function calcular() {
     // Traigo los valores del footer
     let gramos = Number(document.getElementById("gramos").value);
@@ -24,11 +23,6 @@ function calcular() {
     console.log("El TOTAL DE LA COMPRA ES DE: $" + total.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
 
 }
-
-
-
-
-
 
 
 // Arranque de la pagina
